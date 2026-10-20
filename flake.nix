@@ -30,7 +30,10 @@
           inherit (finalAttrs) version src;
           pname = "${name}-app-deps";
           fetcherVersion = 4;
-          hash = "sha256-eAdbm5b8mXSrB25E2jDFLFUxPQtXh195gWsb0HqCQMs=";
+          hash = {
+            x86_64-linux = "sha256-eAdbm5b8mXSrB25E2jDFLFUxPQtXh195gWsb0HqCQMs=";
+            aarch64-linux = "sha256-2KnRztGoJQ4T2rzU9GiSqXZboETsjXSvUwXGsfasW3A=";
+          }.${system};
         };
 
         nativeBuildInputs = [
