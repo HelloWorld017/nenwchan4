@@ -5,7 +5,7 @@
   "description": "2026-Redesigned version of nenw.dev",
   "license": "MIT",
   "author": "Khinenw",
-  "repository": "https://github.com/HelloWorld017/nenwchan3-rewrite",
+  "repository": "https://github.com/HelloWorld017/nenwchan4",
   "type": "module",
   "main": "src/index.js",
   "scripts": {

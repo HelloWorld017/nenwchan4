@@ -59,7 +59,7 @@ const FooterContents = () => {
       <FooterContentsWrapper>
         <div>© 2016 - {date} nenw*</div>
         <div>
-          <a href="https://github.com/HelloWorld017/helloworld017.github.io">View Source</a>
+          <a href="https://github.com/HelloWorld017/nenwchan4">View Source</a>
         </div>
       </FooterContentsWrapper>
     </Container>
