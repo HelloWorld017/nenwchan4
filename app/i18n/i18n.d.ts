@@ -85,7 +85,7 @@ declare module '@simplei18n/core' {
     /** 한국어 */
     lang: TranslationDescriptor<{ interpolations: never; tags: never }>;
     profile: {
-      /** Aviate in Progress */
+      /** Aviation in Progress */
       bio: TranslationDescriptor<{ interpolations: never; tags: never }>;
       /** 안녕하세요! 저는 소프트웨어 개발에 관심이 많은 김요한이라고 합니다.<br/> 저는 주로 <tag>nenw*</tag> 또는 <tag>Khinenw</tag> 라는 이름으로 활동하고 있습니다.  */
       description: TranslationDescriptor<{ interpolations: never; tags: 'br' | 'tag' }>;
